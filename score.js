@@ -20,7 +20,7 @@ deleteTodo=(e)=>{
 
 lists.addEventListener('click',e=>{
     if(e.target.classList.contains('delete')){
-        let list=e.target.parentElement.parentElement.innerText
+        let list=e.target.parentElement.parentElement.parentElement.getAttribute('key')
         console.log(list)
         todos.splice(list,1)
         displayTodo()
