@@ -1,0 +1,32 @@
+input {
+    border: 2px solid #01579b !important;
+    border-radius: 3px !important;
+    color: wheat;
+    padding-left: 10px !important;
+    width: 96.5% !important;
+    
+}
+.delete , .add-text{
+    color:wheat;
+}
+
+.header{
+    color: wheat;
+    font-weight: 700; 
+}
+
+.collection-item {
+    border: none;
+    border-bottom: 2px solid #5a5a5a !important;
+}
+ul.collection.with-header {
+    border: 1px solid #5a5a5a !important;
+    border-radius: 3px;
+    border-bottom: none !important;
+    color: wheat;
+}
+
+.container-fluid {
+    background: #3d056f;
+    height:100% !important;
+}
